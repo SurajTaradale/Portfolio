@@ -1,0 +1,48 @@
+.Learn{
+        min-height: 100vh;
+        background: #ecf0f3;
+}
+.SkillsTitle{
+    padding-top: 6%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .Aboutimg-area12{
+    height: 80%;
+    width: 90%;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.12), -5px -5px 30px 7px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Aboutimg-area12 .Aboutinner-area12{
+    height: calc(100% - 25px);
+    width: calc(100% - 25px);
+    /* border-radius: 50%; */
+  }
+  .Aboutinner-area12 img{
+    height: 100%;
+    width: 100%;
+    /* border-radius: 50%; */
+    object-fit: fill;
+  }
+  .certificate{
+      margin-left: 5px !important;
+  }  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .Aboutimg-area12{
+      width: 95%;
+      height: 95%;
+    }
+  }
+  @media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    .Learn{
+        min-height: 50vh;
+      }
+}

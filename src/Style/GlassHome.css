@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.GlassHome{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg,#f3f6f7 10%,#e1f0f3 100%);
+}
+.GlassHome::before,
+.GlassHome::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+.GlassHome::before{
+    clip-path: circle(30% at left 20%);
+    background: linear-gradient(135deg,#d7e0e4 10%,#cad9dd   100%);
+}
+.GlassHome::after{
+    clip-path: circle(25% at right 80%);
+    background: linear-gradient(135deg,#fbfeff 10%,#cad9dd   100%);
+}
+header{
+    height: 85vh;
+    width: 90%;
+    background: linear-gradient(135deg,#2193b0 10%,#6dd5ed 100%);
+    backdrop-filter: blur(3px);
+    
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0);
+    border-top: 1px solid rgba(74, 112, 114, 0.1);
+    border-left: 1px solid rgba(74, 112, 114, 0.1);
+    border-bottom: 1px solid rgba(74, 112, 114, 0.1);
+    border-right: 1px solid rgba(74, 112, 114, 0.1);
+}

@@ -1,0 +1,58 @@
+.topnav{
+    /* height: 10vh; */
+    text-decoration: none !important;
+    background: #4bc0de !important;
+    /* background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%) */
+}
+
+.topnav2{
+    background: #ecf0f3 !important;
+    text-decoration: none !important;
+    box-shadow: 0px -3px 7px #ffffff,
+               0px 3px 5px #ceced1;
+}
+.subnavbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+    align-items: center;
+}
+.navbtn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+    font-family: math;
+    text-decoration: none !important;
+}
+.navbtn:hover{
+    color: #ecf0f3 !important;
+    cursor: pointer;
+}
+.navbtn2{
+    text-decoration: none !important;
+    font-size: 20px;
+    font-weight: 600;
+    color: #31344b;
+    font-family: math;
+}
+.navbtn2:hover{
+    color: #31344b !important;
+    cursor: pointer;   
+}
+.logo{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #ffff !important;
+    font-weight: 800;
+}
+.logo2{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #31344b !important;
+    font-weight: 800;
+}
