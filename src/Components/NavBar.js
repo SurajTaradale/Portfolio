@@ -36,7 +36,6 @@ function NavBar() {
           <Link className={linkbtn} activeClass="active" to="about" spy={true} smooth={true}>About</Link>
           <Link className={linkbtn} activeClass="active" to="skills" spy={true} smooth={true}>Skills</Link>
           <Link className={linkbtn} activeClass="active" to="Learn" spy={true} smooth={true}>Certificates</Link>
-          <Link className={linkbtn} activeClass="active" to="Contact" spy={true} smooth={true}>Contact me</Link>
         </Nav>
 
       </Navbar.Collapse>

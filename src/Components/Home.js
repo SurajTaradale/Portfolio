@@ -3,9 +3,9 @@ import React from 'react';
 import logo from '../Assets/img2.JPEG';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Typewriter from "typewriter-effect";
-import { Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
-import CV from '../Assets/Surajcv.pdf'
+import CV from '../Assets/Surajcv.pdf';
+import apk from '../Assets/Suraj Taradale.apk'
 function Home() {
     return (
         <div id="home">
@@ -20,12 +20,11 @@ function Home() {
                                             <img src={logo} alt="" />
                                         </div>
                                     </div>
-                                    <div className="social-icons">
-                                        
+                                    <div className="social-icons">  
                                         <a href="https://github.com/SurajTaradale" className="fb view-animation" target='blanck' style={{animationDelay:'1.0s'}}><i className="fab fa-github"></i></a>
-                                        <a href="https://www.linkedin.com/in/suraj-taradale-ab124b197/" target='blanck' className="twitter view-animation" style={{animationDelay:'1.4s'}}><i className="fab fa-linkedin-in"></i></a>
-                                        <a href="mailto:surajtaradale@gmail.com" className="twitter view-animation" target='blanck'> <i className="fas fa-envelope-square" style={{animationDelay:'6s'}}></i></a>
-                                        <a href="https://www.instagram.com/s_u_r_a_j.8002/" className="insta view-animation" target='blanck'><i className="fab fa-instagram" style={{animationDelay:'5s'}}></i></a>
+                                        <a href="https://www.linkedin.com/in/suraj-taradale-ab124b197/" target='blanck' className="twitter view-animation" style={{animationDelay:'1.2s'}}><i className="fab fa-linkedin-in"></i></a>
+                                        <a href="mailto:surajtaradale@gmail.com" className="twitter view-animation" target='blanck' style={{animationDelay:'1.4s'}}> <i className="fas fa-envelope-square" ></i></a>
+                                        <a href="https://www.instagram.com/s_u_r_a_j.8002/" className="insta view-animation" target='blanck' style={{animationDelay:'1.6s'}}><i className="fab fa-instagram" ></i></a>
                                     </div>
                                 </div>
 
@@ -48,11 +47,11 @@ function Home() {
                                 />
                                 <div className="buttons">
                                     <Row>
-                                        <Col  className='ViewCV'>
-                                            <Link to="/View"><button className='righttoleft' style={{animationDelay:'0.5s'}}><i className="fa fa-eye" aria-hidden="true" style={{marginRight:'2%'}}></i>View Cv</button></Link>
+                                        <Col>
+                                            <a href={apk} download><button className='righttoleft' style={{animationDelay:'0.5s'}}><i className="fa fa-download" aria-hidden="true" style={{marginRight:'2%'}}></i>Portfolio App</button></a>
                                         </Col>
                                         <Col>
-                                            <a href={CV} download><button className='righttoleft' style={{animationDelay:'1.0s'}}><i className="fa fa-download" aria-hidden="true" style={{marginRight:'2%'}}></i>Download CV</button></a>
+                                            <a href={CV} download><button className='righttoleft' style={{animationDelay:'1.0s'}}><i className="fa fa-download" aria-hidden="true" style={{marginRight:'2%'}}></i>Resume</button></a>
                                         </Col>
                                     </Row>
                                 </div>
